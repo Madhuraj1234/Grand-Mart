@@ -1,0 +1,164 @@
+.admin .card {
+	border: 2px solid black;
+}
+
+.custom-bg {
+	background: #00897b;
+}
+
+.admin .card:hover {
+	background: #b2dfdb !important;
+	cursor: pointer;
+}
+
+.close {
+	opacity: 1;
+}
+
+.close span {
+	color: #fff;
+}
+
+.list-group-item.active {
+	background: #00897b;
+	border-color: #00897b;
+}
+
+.card-img-top {
+	width: 100%;
+	heigth: 70%;
+	height: 18rem;
+	object-fit: cover;
+}
+
+a:active {
+	background: #00897b;
+}
+
+
+.product-card:hover {
+	backgorund: #00897b !important;
+}
+
+.text-bg {
+	color: #00897b;
+}
+
+span .checked {
+	color: yellow;
+}
+
+/*==partner logo=================================*/
+#partner {
+    margin: 50px auto;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.logo-container img {
+    height: 55px;
+    object-fit: contain;
+    object-position: center;
+    filter: grayscale(1);
+    opacity: 0.3;
+    transition: all ease 0.3s;
+}
+
+.logo-container img:hover {
+    filter: grayscale(0);
+    opacity: 1;
+    transition: all ease 0.3s;
+}
+
+
+/*==footer============================*/
+footer {
+	background-color: #1b1d1f;
+	padding: 50px 20px;
+	border-top: 5px solid #00897b;
+	
+}
+
+.sticky-footer{
+	position:sticky;
+	top:100%;
+}
+
+.footer-container {
+	max-width: 1100px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	position:sticky;
+	top:100%;
+}
+
+.footer-logo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-logo a {
+	color: #ffffff;
+	font-size: 1.4rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.footer-logo a span {
+	color: #00897b;
+}
+
+.footer-social {
+	display: flex;
+	margin-top: 10px;
+}
+
+.footer-social a {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	border: 1px solid #ffffff15;
+	font-size: 0.9rem;
+	margin: 0px 5px;
+	transition: all ease 0.3s;
+}
+
+.footer-social a:hover {
+	background-color: #00897b;
+	transition: all ease 0.3s;
+}
+
+.footer-links strong {
+	color: #ffffff;
+	font-size: 1.4rem;
+	font-weight: 600;
+}
+
+.footer-links ul {
+	margin-top: 10px;
+}
+
+.footer-links ul li a {
+	color: #ffffff;
+	opacity: 0.5;
+	margin: 4px 0px;
+	font-size: 0.9rem;
+	letter-spacing: 1px;
+	transition: all ease 0.3s;
+}
+
+.footer-links li a:hover {
+	opacity: 1;
+	transition: all ease 0.3s;
+}
